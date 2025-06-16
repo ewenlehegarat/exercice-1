@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cookies{
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%; /* Nécessaire de préciser une width si position: fixed */
+    background-color: grey;
+    display: flex;
+    justify-content: space-between; /* Positionner les Div enfants */
+    align-items: center; /* Centrer verticalement */
+    padding: 3rem;
+    opacity: 1; /* Modification de cette valeur en Javascript */
+    transition: 0.5s;
+}
+
+.cookies-btn{
+    display: flex;
+}
+
+button{
+    color: white;
+    padding: 1rem;
+    border: none;
+    border-radius: 10px;
+}
+
+.btn-success{
+    background-color: #1E2337;
+    cursor: pointer;
+}
+
+.btn-deny{
+    background-color: grey;
+}
